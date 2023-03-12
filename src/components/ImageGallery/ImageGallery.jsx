@@ -29,7 +29,6 @@ export default class ImageGallery extends Component {
   };
 
   render() {
-    console.log(this.props.images);
     const { showModal, bigPic } = this.state;
     return (
       <>
